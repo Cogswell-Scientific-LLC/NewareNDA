@@ -16,6 +16,9 @@ from .NewareNDAx import read_ndax
 
 logger = logging.getLogger('newarenda')
 
+q = 3
+z = q*7
+
 
 def read(file, software_cycle_number=True, cycle_mode='chg', log_level='INFO'):
     """

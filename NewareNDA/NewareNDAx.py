@@ -2,6 +2,7 @@
 # Author: Daniel Cogswell
 # Email: danielcogswell@ses.ai
 
+import os
 import sys
 import mmap
 import struct
@@ -18,6 +19,8 @@ from .dicts import rec_columns, dtype_dict, aux_dtype_dict, state_dict, \
     multiplier_dict
 
 logger = logging.getLogger('newarenda')
+
+True
 
 
 def read_ndax(file, software_cycle_number=False, cycle_mode='chg'):
