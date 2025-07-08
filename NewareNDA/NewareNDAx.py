@@ -2,6 +2,7 @@
 # Author: Daniel Cogswell
 # Email: danielcogswell@ses.ai
 
+# Edited in Linux
 import sys
 import mmap
 import struct
