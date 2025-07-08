@@ -2,6 +2,7 @@
 # Author: Daniel Cogswell
 # Email: danielcogswell@ses.ai
 
+# Edited on windows
 import os
 import mmap
 import struct
